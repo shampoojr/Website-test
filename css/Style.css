@@ -1,0 +1,42 @@
+:root{
+  font-size: 16px;
+  --text-primary: #ffffff;
+  --text-secondary: #ececec;
+  --bg-primary: #4d4d4d;
+  --bg-secondary: #141418;
+}
+
+body {
+  color: #ffffff;
+  background: #333333;
+  font-family: sans-serif, 'Material Icons' ;
+  margin: 0;
+  padding: 0;
+  white-space: pre-wrap;
+}
+
+body::-webkit-scrollbar{
+  width: 10px
+
+}
+
+body::-webkit-scrollbar-track{
+background-image: linear-gradient(#f00000, #00000f);
+border-radius: 9px;
+
+}
+body::-webkit-scrollbar-thumb{
+  background: radial-gradient(#333333, #000000);
+  border-radius: 9px;
+}
+
+
+
+main{
+  margin-left: 2rem;
+  padding: 0.5rem;
+}
+
+.nav{
+  
+}
